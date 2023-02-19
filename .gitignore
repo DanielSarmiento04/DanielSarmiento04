@@ -1,60 +1,39 @@
-.DS_STORE
-
-/dist/
-/bazel-out
-/integration/bazel/bazel-*
-*.log
-node_modules
-
-# CircleCI temporary file for cache key computation.
-# See `save_month_to_file` in `.circleci/config.yml`.
-month.txt
-
-# Include when developing application packages.
-pubspec.lock
-.c9
-.idea/
-.devcontainer/*
-!.devcontainer/README.md
-!.devcontainer/recommended-devcontainer.json
-!.devcontainer/recommended-Dockerfile
-.settings/
-.vscode/launch.json
-.vscode/settings.json
-.vscode/tasks.json
-*.swo
+*.orig
+*.pyc
 *.swp
-modules/.settings
-modules/.vscode
-.vimrc
-.nvimrc
+.env
 
-# Don't check in secret files
-*secret.js
+/.cargo_home/
+/.idea/
+/.vscode/
+gclient_config.py_entries
+/gh-pages/
+/target/
+/std/hash/_wasm/target
+/tools/wpt/manifest.json
+/test_napi/node_modules
+/test_napi/build
+/test_napi/third_party_tests/node_modules
 
-# Ignore npm/yarn debug log
-npm-debug.log
-yarn-error.log
+# Files that help ensure VSCode can work but we don't want checked into the
+# repo
+/node_modules
+/tsconfig.json
 
-# build-analytics
-.build-analytics
+# compiled wasm files
+std/wasi/testdata/snapshot_preview1/
 
-# rollup-test output
-/modules/rollup-test/dist/
+# generated v8 coverage files
+cli/tests/.test_coverage/
 
-# User specific bazel settings
-.bazelrc.user
+# MacOS generated files
+.DS_Store
+.DS_Store?
 
-# User specific ng-dev settings
-.ng-dev.user*
+# Flamegraphs
+/flamebench*.svg
+/flamegraph*.svg
 
-.notes.md
-baseline.json
-
-# Ignore .history for the xyz.local-history VSCode extension
-.history
-
-# Husky
-.husky/_
-
-.angular
+# WPT generated cert files
+/tools/wpt/certs/index.txt*
+/tools/wpt/certs/serial*

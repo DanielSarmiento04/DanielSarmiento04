@@ -20,5 +20,6 @@ export async function loadProject(id: string): Promise<TProject | null> {
     title: params.title,
     body,
   };
+
   return project;
 }

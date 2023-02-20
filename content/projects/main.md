@@ -1,7 +1,7 @@
 ---
 title : Main Porfolio
 date : 2023-02-20
-except : Porfolio
+excerpt : Porfolio
 ---
 
 First Project

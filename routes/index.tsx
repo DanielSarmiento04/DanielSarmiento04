@@ -9,7 +9,7 @@ export default function Home() {
       </Head>
       <main class="max-w-screen-2xl p-4">
         <h1 class="text-2xl">Esto ya funciona.</h1>
-        <a class="underline hover:text-blue-500" href="/project/hello-world">
+        <a class="underline hover:text-blue-500" href="/project/main">
           Entra a este proyecto
         </a>
       </main>

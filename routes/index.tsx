@@ -1,9 +1,10 @@
 import { Head } from "$fresh/runtime.ts";
 import Counter from "../islands/Counter.tsx";
 import { Handlers, PageProps } from "$fresh/server.ts";
-
 import { listProjects, loadProject } from "../utils/projects.ts";
 import { TProject } from "../types.d.ts";
+
+import LikeButton from "../components/like.tsx";
 
 export const handler: Handlers = {
   async GET(request: Request, context) {
@@ -24,59 +25,38 @@ export default function Home(props: PageProps) {
       <div>
         <h1>Projects</h1>
         {projects.map((project: TProject) => (
-          <div>
-            <h2>{project.title}</h2>
-
-            <time>
-              {Intl.DateTimeFormat("es", { timeZone: "GMT" })
-                .format(
-                  project.date,
-                )}
-            </time>
+          <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+            {/* <img class="w-full" src="https://source.unsplash.com/random/400x200" alt="Random image"> */}
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">{project.title}</div>
+              <p class="text-gray-700 text-base">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                euismod libero vel velit volutpat, in faucibus augue euismod.
+              </p>
+              <p class="text-gray-600 text-sm mt-2">
+                {Intl.DateTimeFormat("es", {
+                  timeZone: "GMT",
+                }).format(project.date)}
+              </p>
+            </div>
+            <div class="px-6 py-4 flex items-center justify-between">
+              <div>
+              </div>
+              <div class="flex">
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                  #tag1
+                </span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                  #tag2
+                </span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+                  #tag3
+                </span>
+              </div>
+              <LikeButton />
+            </div>
           </div>
         ))}
-      </div>
-      <div class="card border-0">
-        <div class="position-relative text-white">
-          <div class="card-img-overlay three">
-            <span class="badge badge-light text-uppercase">Famous</span>
-          </div>
-
-          <div class="--card-smooth-caption">
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="mr-auto">
-                <h5 class="card-title text-white">Smooth caption</h5>
-                <h6 class="card-subtitle text-white">Alternative caption</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-body">
-          <p class="card-text">
-            Minim dolor in amet nulla laboris enim dolore consequat proident
-            fugiat culpa eiusmod proident sed excepteur excepteur magna irure ex
-            officia ea sunt in incididunt.
-          </p>
-        </div>
-
-        <div class="card-footer">
-          <div class="media align-items-center">
-            <div class="media-body">
-              <a class="card-link text-primary read-more" href="javascript://">
-                Read More
-              </a>
-            </div>
-            <div class="footerright">
-              <div class="tnlink3">
-                <i class="fas fa-heart" aria-hidden="true"></i>
-              </div>
-              <div class="tnlink3">
-                <i class="fas fa-share-nodes" aria-hidden="true"></i>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );

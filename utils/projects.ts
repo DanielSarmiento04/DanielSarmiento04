@@ -1,7 +1,6 @@
 import { TProject } from "../types.d.ts";
 import { extract } from "$std/encoding/front_matter/any.ts";
 import { render } from "$gfm/mod.ts";
-import { Regex } from "https://deno.land/x/regexbuilder/mod.ts";
 
 export async function loadProject(id: string): Promise<TProject | null> {
   const raw: string | null = await Deno
@@ -32,12 +31,26 @@ export async function loadProject(id: string): Promise<TProject | null> {
 
 export async function listProjects(): Promise<TProject[]> {
   // const promise =[];
-  const regex = /\/content\/projects\/(.*)\.md/;
+  // const regex = /\/content\/projects\/(.*)\.md/;
+  const promises = [];
+
+  const regex = /\/?(.*)\.md/;
   for await (const entry_project of Deno.readDir("./content/projects")) {
     const result = entry_project.name.match(regex);
-    console.log(result);
-    console.log(entry_project);
+    const id = result ? result[1] : null;
+    // If the file name don't exits successfully
+    if (!id) continue;
+
+    promises.push(loadProject(id));
   }
+
+  // Assume that all projects are valid
+  const posts: TProject[] = await Promise.all(promises) as TProject[];
+  console.log(posts);
+  return posts;
 }
 
-await listProjects();
+// console.log(
+//   // await loadProject("main"),
+//   await listProjects(),
+// );

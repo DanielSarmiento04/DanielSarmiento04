@@ -14,13 +14,14 @@ export async function loadProject(id: string): Promise<TProject | null> {
   const { attrs, body } = extract(raw);
 
   // declare de <string, unknown> value to manipulare
-  const params = attrs as Record<string, string>;
-
+  const { date, title, description } = attrs as Record<string, string>;
+  const { tags } = attrs as Record<string, string[]>;
   const project: TProject = {
     id,
-    date: new Date(params.date),
-    excerpt: params.excerpt,
-    title: params.title,
+    date: new Date(date),
+    tags: tags,
+    title: title,
+    description: description,
     body: render(body),
   };
 
@@ -46,7 +47,7 @@ export async function listProjects(): Promise<TProject[]> {
 
   // Assume that all projects are valid
   const posts: TProject[] = await Promise.all(promises) as TProject[];
-  console.log(posts);
+  // sor;
   return posts;
 }
 

@@ -1,7 +1,8 @@
 export type TProject = {
   id: string;
   date: Date;
-  excerpt: string;
+  tags: string[];
+  description: string;
   title: string;
   body: string;
 };

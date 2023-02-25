@@ -3,6 +3,10 @@ title : Second Porfolio
 date : 2023-12-11
 excerpt : Project 2
 description : short description 2
+tags :
+ - tag1
+ - tag2
+ - tag3
 ---
 
 First Project

@@ -4,9 +4,9 @@
 - 📫 How to reach me **josedanielsarmiento219@gmail.com**
 
 
+<img align="center" alt="Tf" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg">
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=DanielSarmiento04&show_icons=true&theme=radical)
+<img align="center" alt="py_torch" height="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-plain-wordmark.svg">
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DanielSarmiento04&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
-
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DanielSarmiento04&hide_progress=true)

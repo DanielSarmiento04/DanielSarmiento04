@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "José Sarmiento",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
+    "label": "Analista de datos AI / ML con 2 años de experiencia, creador de proyectos open source",
     "image": "/me.webp",
     "email": "sarmientoblancojosedaniel@gmail.com",
     "phone": "+57 3017128802",
@@ -45,16 +45,6 @@
       "startDate": "2016-06-01",
       "endDate": "2022-09-01",
       "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
       "highlights": [
         "Started the company"
       ]

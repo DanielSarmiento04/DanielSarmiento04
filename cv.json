@@ -61,18 +61,45 @@
       "Awarded 'Volunteer of the Month'"
     ]
   }],
-  "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
+  "education": [
+    {
+      "institution": "Universidad Industrial de Santander",
+      "url": "https://www.uoc.edu/portal/es/index.html",
+      "area": "Ingeniero Mecánica",
+      "studyType": "Bachelor",
+      "startDate": "2019-06-01",
+      "endDate": "2024-12-01",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "Organización Internacional del trabajo",
+      "url": "https://www.uoc.edu/portal/es/index.html",
+      "area": "Analítica de Datos",
+      "studyType": "Bachelor",
+      "startDate": "2019-06-01",
+      "endDate": "2024-12-01",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "Universidad de Caldas",
+      "url": "https://www.uoc.edu/portal/es/index.html",
+      "area": "Diplomado en desarrollo de software con énfasis en desarrollo web",
+      "studyType": "Bachelor",
+      "startDate": "2021-05-01",
+      "endDate": "2021-12-01",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }
+    
+  ],
   "awards": [{
     "title": "Award",
     "date": "2014-11-01",

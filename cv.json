@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "José Sarmiento",
-    "label": "Ingeniero de Inteligencia artificial AI / ML con 2 ańos de experiencia, Creador de proyectos de código abiertos",
+    "label": "Amante de la tecnología con 2 años de experiencia en el desabollo de software especializado en inteligencia artificial.",
     "image": "https://raw.githubusercontent.com/DanielSarmiento04/DanielSarmiento04/main/public/me.webp",
     "email": "sarmientoblancojosedaniel@gmail.com",
     "phone": "+57 3017128802",
     "url": "https://midu.dev",
-    "summary": "Tengo experiencia en aprendizaje automático, como modelos CNN, aprendizaje profundo y redes neuronales. He trabajado con lenguajes de programación como python, typescript y C++/C#, ademas usando algunos sistemas de bases de datos famosos como mongodb y sql",
+    "summary": "Tengo experiencia en aprendizaje automático, como modelos CNN, aprendizaje profundo y redes neuronales. He trabajado con lenguajes de programación como python, typescript y C++/C#, ademas usando algunos sistemas de bases de datos famosos como mongodb y sql.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -33,20 +33,20 @@
       "position": "Ingeniero de desarrollo i+d+i+d",
       "startDate": "2022-01-05",
       "endDate": null,
-      "summary": "Lideré proyecto basado en inteligencia artificial especializada en el sector de computer vision. Escalé servicios para soportar alta demanda y balanceo de cargas. Optimice tiempos de procesamiento 3x en algoritmos de inferencia. Fomenté buenas practicas en la cultura del desarrollo",
+      "summary": "Lideré proyecto basado en inteligencia artificial especializada en el sector de computer vision. Escalé servicios para soportar alta demanda y balanceo de cargas. Optimice tiempos de procesamiento 3x en algoritmos de inferencia. Fomenté buenas practicas en la cultura del desarrollo.",
       "highlights": [
         "Started the company"
       ]
     },
     {
-      "name": "Tutor de Termodinamica",
-      "position": "Lead Frontend Architect",
+      "name": "Universidad Industrial de Santander",
+      "position": "Tutor de Termodinámica / Calculo",
       "url": "https://twitch.tv/midudev",
       "startDate": "2016-06-01",
       "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "summary": "Apoyo a estudiantes mediante un sistema de mentorias / clase, se integra un conjunto de herramientas basado en cuadernos de python (Notebook) para mejorar la explicación de procesos físico matemáticos",
       "highlights": [
-        "Started the company"
+        "University"
       ]
     }
   ],

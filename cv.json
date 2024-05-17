@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "José Sarmiento",
-    "label": "Amante de la tecnología con 2 años de experiencia en el desabollo de software especializado en inteligencia artificial.",
+    "label": "Amante de la tecnología con 2 años de experiencia en el desarrollo de software especializado en inteligencia artificial.",
     "image": "https://raw.githubusercontent.com/DanielSarmiento04/DanielSarmiento04/main/public/me.webp",
     "email": "sarmientoblancojosedaniel@gmail.com",
     "phone": "+57 3017128802",
@@ -44,7 +44,7 @@
       "url": "https://twitch.tv/midudev",
       "startDate": "2016-06-01",
       "endDate": "2022-09-01",
-      "summary": "Apoyo a estudiantes mediante un sistema de mentorias / clase, se integra un conjunto de herramientas basado en cuadernos de python (Notebook) para mejorar la explicación de procesos físico matemáticos",
+      "summary": "Apoyo a estudiantes mediante un sistema de mentorias / clase, se integra un conjunto de herramientas basado en cuadernos de python (Notebook) para mejorar la explicación de procesos físico matemáticos.",
       "highlights": [
         "University"
       ]
@@ -181,6 +181,13 @@
       "level": "Avanzado",
       "keywords": [
         "Bases de Datos", "NO SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Cpp",
+      "level": "Avanzado",
+      "keywords": [
+        "Low Level", "Backend", "C++", "C"
       ]
     }
   ],

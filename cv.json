@@ -18,7 +18,7 @@
       {
         "network": "LinkedIn",
         "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
+        "url": "linkedin.com/in/jose-sarmiento-83a1a8222"
       },
       {
         "network": "GitHub",
@@ -79,8 +79,8 @@
       "url": "https://www.uoc.edu/portal/es/index.html",
       "area": "Analítica de Datos",
       "studyType": "Bachelor",
-      "startDate": "2019-06-01",
-      "endDate": "2024-12-01",
+      "startDate": "2023-08-01",
+      "endDate": "2023-11-01",
       "score": "4.0",
       "courses": [
         "DB1101 - Basic SQL"
@@ -122,7 +122,7 @@
   "skills": [
     {
       "name": "JavaScript",
-      "level": "Master",
+      "level": "Medio",
       "keywords": [
         "Desarrollo Web", "Frontend", "Backend", "Fullstack"
       ]
@@ -160,6 +160,20 @@
       "level": "Avanzado",
       "keywords": [
         "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Avanzado",
+      "keywords": [
+        "Contenedores", "Despliegue", "Infraestructura", "DevOps"  
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
       ]
     }
   ],
@@ -215,7 +229,7 @@
     {
       "name": "ObjectDetectionApi",
       "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
+      "description": "Api rest desarrollada en c++ usando el framework oat++ para la detección de objetos en imágenes usando el modelo YoloV8. Se usa openCv para el procesamiento de imágenes.",
       "highlights": [
         "OpenCv",
         "YoloV8",
@@ -238,6 +252,16 @@
       ],
       "url": "https://github.com/DanielSarmiento04/api_gateway",
       "github": "https://github.com/DanielSarmiento04/api_gateway"
+    },
+    {
+      "name": "Infrastructure Integration",
+      "description": "Integración de nginx como un balanceador de cargas a dos micro servicios, Se conteneriza cada micro servicio y se despliega en un servidor de producción",
+      "highlights": [
+        "python",
+        "nginx"
+      ],
+      "url": "https://github.com/DanielSarmiento04/infraestructure_integration",
+      "github": "https://github.com/DanielSarmiento04/infraestructure_integration"
     }
     
   ]

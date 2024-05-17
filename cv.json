@@ -221,66 +221,59 @@
   }],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "Cifar 10",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "Desarrollo de red neuronal convolucional usando el dataset cifar 10, usando métricas como Recall, AUC, BinaryAccuracy entre otras.",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "Tensorflow",
+        "Python",
+        "CNN"
       ],
-      "url": "https://mars.codes"
+      "url": "https://github.com/DanielSarmiento04/Cifar-10",
+      "github": "https://github.com/DanielSarmiento04/Cifar-10"
+
     },
     {
-      "name": "AdventJS",
+      "name": "Kafka-lab",
       "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "description": "Ejemplos de apache kafka usando c, c++ y python para un consumidor y un productor, se adapta el el proyecto para despliegues con docker compose",
       "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
+        "C",
+        "C++",
+        "Python",
+        "Docker",
+        "apache kafka"
       ],
-      "url": "https://adventjs.dev"
+      "url": "https://github.com/DanielSarmiento04/Kafka-lab",
+      "github": "https://github.com/DanielSarmiento04/Kafka-lab"
     },
     {
-      "name": "Codember",
+      "name": "ObjectDetectionApi",
       "isActive": true,
       "description": "Juego interactivo de programación con retos y secretos",
       "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
+        "OpenCv",
+        "YoloV8",
+        "Oat++",
+        "C++"
       ],
-      "url": "https://codember.dev"
+      "url": "https://github.com/DanielSarmiento04/ObjectDetectionApi",
+      "github": "https://github.com/DanielSarmiento04/ObjectDetectionApi"
     },
     {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "name": "Api GateWay",
+      "description": "Creación de un api gateway usando actix-web en rust para peticiones peticiones http 1/2 adicionando ademas una capa de servidor proxy reverso.  Se usa arquitectura basada en micro servicios con una api desarrollada en python y bun",
       "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
+        "Rust",
+        "Docker",
+        "Bun",
+        "Python",
+        "MicroService",
+        "nginx"
       ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
+      "url": "https://github.com/DanielSarmiento04/api_gateway",
+      "github": "https://github.com/DanielSarmiento04/api_gateway"
     }
+    
   ]
 }

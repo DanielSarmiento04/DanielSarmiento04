@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "José Sarmiento",
-    "label": "Analista de datos AI / ML con 2 años de experiencia, creador de proyectos open source",
+    "label": "Ingeniero de Inteligencia artificial AI / ML con 2 ańos de experiencia, Creador de proyectos de código abiertos",
     "image": "https://raw.githubusercontent.com/DanielSarmiento04/DanielSarmiento04/main/public/me.webp",
     "email": "sarmientoblancojosedaniel@gmail.com",
     "phone": "+57 3017128802",
@@ -175,6 +175,13 @@
       "keywords": [
         "Desarrollo Web", "Frontend", "Backend", "Fullstack"
       ]
+    },
+    {
+      "name": "Mongo",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "NO SQL", "Almacenamiento de Datos", "Backend"
+      ]
     }
   ],
   "languages": [
@@ -257,11 +264,24 @@
       "name": "Infrastructure Integration",
       "description": "Integración de nginx como un balanceador de cargas a dos micro servicios, Se conteneriza cada micro servicio y se despliega en un servidor de producción",
       "highlights": [
-        "python",
-        "nginx"
+        "Python",
+        "Nginx",
+        "Docker",
+        "Load Balancer"
       ],
       "url": "https://github.com/DanielSarmiento04/infraestructure_integration",
       "github": "https://github.com/DanielSarmiento04/infraestructure_integration"
+    },
+    {
+      "name": "Yolo V9 Inference",
+      "description": "Inferencia de objetos en tiempo real usando el modelo YoloV9, se usa openCv para el procesamiento de imágenes y se despliega en un servidor de producción usando c++",
+      "highlights": [
+        "Onnx",
+        "Yolov9",
+        "C++"
+      ],
+      "url": "https://github.com/DanielSarmiento04/yolov9_inference",
+      "github": "https://github.com/DanielSarmiento04/yolov9_inference"
     }
     
   ]

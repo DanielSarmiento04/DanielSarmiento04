@@ -289,8 +289,8 @@
         "OnnxRuntime",
         "OpenCv"
       ],
-      "url": "https://github.com/DanielSarmiento04/yolov9_inference",
-      "github": "https://github.com/DanielSarmiento04/yolov9_inference"
+      "url": "https://github.com/DanielSarmiento04/yolov10cpp",
+      "github": "https://github.com/DanielSarmiento04/yolov10cpp"
     }
     
   ]

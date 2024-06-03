@@ -280,12 +280,14 @@
       "github": "https://github.com/DanielSarmiento04/infraestructure_integration"
     },
     {
-      "name": "Yolo V9 Inference",
-      "description": "Inferencia de objetos en tiempo real usando el modelo YoloV9, se usa openCv para el procesamiento de imágenes y se despliega en un servidor de producción usando c++",
+      "name": "Yolo V10 c++",
+      "description": "The next repository aims to provide a basic c++ script using std 17 over, to do it and consider the speed The code use OpenCv 4.9.0_8 and Onnx 1.17.1 to manipulate the image and inference the model. Note that Opncv don't support a native integration because yolov10 integra A top K layer in their architecture.",
       "highlights": [
         "Onnx",
-        "Yolov9",
-        "C++"
+        "Yolov10",
+        "C++",
+        "OnnxRuntime",
+        "OpenCv"
       ],
       "url": "https://github.com/DanielSarmiento04/yolov9_inference",
       "github": "https://github.com/DanielSarmiento04/yolov9_inference"

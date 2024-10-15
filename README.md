@@ -1,23 +1,37 @@
-- 👋 Hi, I’m @DanielSarmiento04
-- 👀 I’m interested in Data Scient and Machine Learning.
-- 🌱 I’m currently learning about CNN and Deep Learning using tensorflow by Python.
-- 📫 How to reach me **josedanielsarmiento219@gmail.com**
 
+# 👋 Hello, I'm Daniel Sarmiento!  
 
+💡 **Passionate about:**  
+- **Data Science** and **Machine Learning**  
+- Deploying **Computer Vision** models on **embedded devices** using **C++**  
+- Optimizing models with **ONNX Runtime** and **OpenCV**
+
+🌱 **Currently Learning:**  
+- Deepening my knowledge of **Convolutional Neural Networks (CNNs)** and **Deep Learning** using **TensorFlow** and **PyTorch**  
+
+📫 **Reach me at:**  
+[![Gmail Badge](https://img.shields.io/badge/-josedanielsarmiento219@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white)](mailto:josedanielsarmiento219@gmail.com)
+
+---
+
+## 🛠️ **Languages & Tools:**  
 <div style="display: inline_block"><br>
-
-  <img align="center" alt="Isa-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt="Isa-C" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
-  <img align="center" alt="Tf" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg">
-  <img align="center" alt="py_torch" height="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-plain-wordmark.svg">
+  <img align="center" alt="Python" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+  <img align="center" alt="C" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
+  <img align="center" alt="TensorFlow" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg">
+  <img align="center" alt="PyTorch" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-plain-wordmark.svg">
 </div>
-  
 
+---
 
+## 📊 **GitHub Stats**  
 
 <p align="center">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanielSarmiento04&hide_progress=true" alt="DanielSarmiento" />
-    <img align="center" src="https://github-readme-stats.vercel.app/api/?username=danielsarmiento04&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515" alt="DanielSarmiento" />
-    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=DanielSarmiento04" alt="DanielSarmiento" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanielSarmiento04&layout=compact&langs_count=8&theme=radical" alt="Top Languages" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=DanielSarmiento04&show_icons=true&theme=radical" alt="GitHub Stats" />
+    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=DanielSarmiento04&theme=radical" alt="Streak Stats" />
 </p>
 
+---
+
+![Profile Views](https://komarev.com/ghpvc/?username=DanielSarmiento04&color=brightgreen)

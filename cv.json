@@ -6,7 +6,7 @@
     "email": "sarmientoblancojosedaniel@gmail.com",
     "phone": "+57 3017128802",
     "url": "https://midu.dev",
-    "summary": "Tengo experiencia en la construcción, entrenamiento y despliegue de sistemas basados de inteligencia artificial basado en redes neuronales, así como en la construcción, despliegue y adaptación de soluciones basados en microservicios. He trabajado con lenguajes de programación como python, typescript y C++/C, manejo de bases de datos como MySql, SqlSever, MongoDB y usando sistemas de automatización para despliegue como Docker",
+    "summary": "Cuento con experiencia en el diseño, entrenamiento y despliegue de sistemas de inteligencia artificial basados en redes neuronales, así como en la creación, implementación y adaptación de soluciones basadas en microservicios. Tengo un sólido manejo de lenguajes de programación como Python, TypeScript y C++/C, además de experiencia en la administración de bases de datos como MySQL, SQL Server y MongoDB. También poseo habilidades en la automatización de despliegues utilizando herramientas como Docker.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -31,6 +31,7 @@
     {
       "name": "Axede S.A.",
       "position": "Ingeniero de desarrollo i+d+i+d",
+      "url": "https://www.axede.com.co/",
       "startDate": "2022-01-05",
       "endDate": null,
       "summary": "Lideré proyecto basado en inteligencia artificial especializada en el sector de computer vision. Escalé servicios para soportar alta demanda y balanceo de cargas. Optimice tiempos de procesamiento 3x en algoritmos de inferencia. Fomenté buenas practicas en la cultura del desarrollo.",
@@ -41,7 +42,7 @@
     {
       "name": "Universidad Industrial de Santander",
       "position": "Tutor de Termodinámica / Calculo",
-      "url": "https://twitch.tv/midudev",
+      "url": "https://uis.edu.co/es/",
       "startDate": "2016-06-01",
       "endDate": "2022-09-01",
       "summary": "Apoyo a estudiantes mediante un sistema de mentorias / clase, se integra un conjunto de herramientas basado en cuadernos de python (Notebook) para mejorar la explicación de procesos físico matemáticos.",

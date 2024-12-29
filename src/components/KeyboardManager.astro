@@ -119,9 +119,11 @@ const profilesInfo = profiles.map(({ network, url }) => {
       hotkey: "ctrl+P",
       section: "Acciones",
       handler: () => {
+        const basePath = window.location.pathname.split("/")[1];
+        const filePath = `/${basePath}/assets/cv.pdf`; 
         
         const link = document.createElement("a");
-        link.href = "/src/assets/cv.pdf"; // Adjust the path based on your deployment setup.
+        link.href = `${filePath}/src/assets/cv.pdf`; // Adjust the path based on your deployment setup.
         link.download = "CV_SOFTWARE_DEVELOPER_JOSE_DANIEL_SARMIENTO_BLANCO.pdf"; // Optional: Sets the default filename for the download.
         link.click();
       }

@@ -1,23 +1,23 @@
 {
   "basics": {
-    "name": "José Sarmiento",
-    "label": "Apasionado de la tecnología, me gustan los retos que me permiten crecer y aportan a mi ecosistema personal.",
+    "name": "José Daniel Sarmiento Blanco",
+    "label": "AI Engineer & Software Developer",
     "image": "https://raw.githubusercontent.com/DanielSarmiento04/DanielSarmiento04/main/public/me.webp",
     "email": "sarmientoblancojosedaniel@gmail.com",
-    "phone": "+57 3017128802",
-    "url": "https://midu.dev",
-    "summary": "Cuento con experiencia en el diseño, entrenamiento y despliegue de sistemas de inteligencia artificial basados en redes neuronales, así como en la creación, implementación y adaptación de soluciones basadas en microservicios. Tengo un sólido manejo de lenguajes de programación como Python, TypeScript y C++/C, además de experiencia en la administración de bases de datos como MySQL, SQL Server y MongoDB. También poseo habilidades en la automatización de despliegues utilizando herramientas como Docker. Soy una persona proactiva, organizada y orientada a resultados, con una fuerte capacidad para adaptarme a entornos dinámicos y trabajar en equipo de manera efectiva. Busco retos que me permitan crecer como persona y como profesional. ",
+    "phone": "+55 21 99997 3432",
+    "url": "https://github.com/DanielSarmiento04",
+    "summary": "Results-driven Artificial Intelligence Engineer and Software Developer with 3+ years of experience engineering high-throughput Machine Learning, Computer Vision, and Natural Language Processing (NLP) systems. Proven track record optimizing deep learning models in PyTorch and CUDA (reducing latency by 40%), building production conversational AI engines, and scaling distributed microservices in Rust and Python. Expert in translating business requirements into resilient, production-ready AI solutions supported by rigorous CI/CD and cloud-native architecture.",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "Santander",
-      "countryCode": "CO",
-      "region": "Colombia"
+      "postalCode": "",
+      "city": "Rio de Janeiro",
+      "countryCode": "BR",
+      "region": "Brazil"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
+        "username": "jose-sarmiento",
         "url": "https://linkedin.com/in/jose-sarmiento-83a1a8222"
       },
       {
@@ -29,166 +29,225 @@
   },
   "work": [
     {
-      "name": "Axede S.A.",
-      "position": "Ingeniero de desarrollo i+d+i+d",
-      "url": "https://www.axede.com.co/",
-      "startDate": "2022-01-05",
+      "name": "Worldpanel by Numerator",
+      "position": "AI and Software Engineer",
+      "url": "https://www.numerator.com/",
+      "startDate": "2025-12-01",
       "endDate": null,
-      "summary": "Lideré proyecto basado en inteligencia artificial especializada en el sector de computer vision. Escalé servicios para soportar alta demanda y balanceo de cargas. Optimice tiempos de procesamiento 3x en algoritmos de inferencia. Fomenté buenas practicas en la cultura del desarrollo.",
+      "summary": "Architected and deployed automated data mining pipelines using Python, .NET, and SQL, ingesting 500K+ consumer market research records daily. Engineered real-time ETL aggregation workflows, reducing data ingestion latency by 35% and accelerating analytics query responsiveness. Optimized complex SQL Server queries and data indexing, cutting backend reporting runtimes by 40% for enterprise dashboards.",
       "highlights": [
-        "Started the company"
+        "Python",
+        ".NET",
+        "SQL Server",
+        "ETL Pipelines",
+        "Data Mining"
       ]
     },
     {
-      "name": "Universidad Industrial de Santander",
-      "position": "Tutor de Termodinámica / Calculo",
-      "url": "https://uis.edu.co/es/",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Apoyo a estudiantes mediante un sistema de mentorias / clase, se integra un conjunto de herramientas basado en cuadernos de python (Notebook) para mejorar la explicación de procesos físico matemáticos.",
+      "name": "AXD.SAS",
+      "position": "Developer – Lab X (Multimodal Generative AI)",
+      "url": "https://www.axede.com.co/",
+      "startDate": "2025-08-01",
+      "endDate": "2025-09-30",
+      "summary": "Spearheaded applied research in multimodal generative AI synthesizing language, vision, and speech representations, accelerating prototype iteration cycles by 30%. Constructed bilingual (Spanish/English) conversational agents with NLP, ASR, and TTS pipelines, delivering <250ms end-to-end response latency.",
       "highlights": [
-        "University"
+        "Multimodal AI",
+        "NLP",
+        "ASR & TTS",
+        "Speech Synthesis",
+        "Python"
+      ]
+    },
+    {
+      "name": "AXD.SAS",
+      "position": "Software Developer (R&D) – Advanced Role",
+      "url": "https://www.axede.com.co/",
+      "startDate": "2025-02-01",
+      "endDate": "2025-08-01",
+      "summary": "Designed and deployed computer vision pipelines with YOLOv8, PyTorch, and TensorRT, achieving a 40% reduction in inference latency in production. Fine-tuned Transformer architectures for NLP dialogue and speech synthesis, boosting semantic intent classification accuracy by 18%. Engineered event-driven distributed streaming microservices using Apache Kafka and RabbitMQ, processing 10K+ msg/sec reliably.",
+      "highlights": [
+        "Computer Vision",
+        "YOLOv8",
+        "PyTorch",
+        "TensorRT",
+        "Apache Kafka",
+        "RabbitMQ"
+      ]
+    },
+    {
+      "name": "AXD.SAS",
+      "position": "Software Developer (R&D) – Core Role",
+      "url": "https://www.axede.com.co/",
+      "startDate": "2022-05-01",
+      "endDate": "2025-02-01",
+      "summary": "Developed high-concurrency microservice APIs in Rust (Actix-web) and Python to serve ML models, cutting p99 response times to <50ms. Built production conversational analytics engines using Transformers, spaCy, and NLTK, parsing dialogue logs to extract actionable business insights. Implemented an end-to-end voice conversation pipeline (STT, NLP dialogue management, TTS) supporting 50K+ monthly interactive user sessions. Optimized ML algorithms to achieve a 300% performance improvement; built CI/CD deployment pipelines, cutting developer onboarding by 25%.",
+      "highlights": [
+        "Rust",
+        "Actix-web",
+        "Python",
+        "spaCy & NLTK",
+        "Speech Systems",
+        "CI/CD"
       ]
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
+  "volunteer": [],
   "education": [
     {
-      "institution": "Universidad Industrial de Santander",
-      "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniero Mecánica",
-      "studyType": "Bachelor",
-      "startDate": "2019-06-01",
-      "endDate": "2024-12-01",
-      "score": "4.0",
+      "institution": "Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)",
+      "url": "https://www.puc-rio.br",
+      "area": "Master of Science in Electrical Engineering – Decision Support Methods",
+      "studyType": "Master of Science",
+      "startDate": "2026-03-01",
+      "endDate": "2028-02-01",
+      "score": "",
       "courses": [
-        "DB1101 - Basic SQL"
+        "Advanced Mathematical Optimization",
+        "Decision Support Systems",
+        "Intelligent Methods"
       ]
     },
     {
-      "institution": "Organización Internacional del trabajo",
-      "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Analítica de Datos",
-      "studyType": "Bachelor",
+      "institution": "Universidad Industrial de Santander",
+      "url": "https://uis.edu.co/es/",
+      "area": "Bachelor of Science in Mechanical Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2019-07-01",
+      "endDate": "2025-09-01",
+      "score": "",
+      "courses": [
+        "Computational Modeling",
+        "Algorithmic Simulation",
+        "Applied Numerical Methods"
+      ]
+    },
+    {
+      "institution": "International Labour Organization (ILO)",
+      "url": "https://www.ilo.org",
+      "area": "Professional Diploma in Data Analytics",
+      "studyType": "Diploma",
       "startDate": "2023-08-01",
       "endDate": "2023-11-01",
-      "score": "4.0",
+      "score": "",
       "courses": [
-        "DB1101 - Basic SQL"
-      ]
-    },
-    {
-      "institution": "Universidad de Caldas",
-      "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Diplomado en desarrollo de software con énfasis en desarrollo web",
-      "studyType": "Bachelor",
-      "startDate": "2021-05-01",
-      "endDate": "2021-12-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
+        "Applied Statistical Modeling",
+        "Exploratory Data Analysis",
+        "Business Intelligence"
       ]
     }
-    
   ],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
+  "awards": [],
+  "certificates": [],
+  "publications": [
+    {
+      "name": "IEEE Scientific Publications & Conference Proceedings",
+      "publisher": "IEEE Xplore",
+      "releaseDate": "2024-01-01",
+      "url": "https://ieeexplore.ieee.org/author/453413785135945",
+      "summary": "Authored scientific publications and research papers in applied machine learning, computer vision, and decision support algorithms."
+    }
+  ],
   "skills": [
     {
-      "name": "JavaScript",
-      "level": "Medio",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-      ]
-    },
-    {
-      "name": "Docker",
-      "level": "Avanzado",
-      "keywords": [
-        "Contenedores", "Despliegue", "Infraestructura", "DevOps"  
-      ]
-    },
-    {
       "name": "Python",
-      "level": "Avanzado",
+      "level": "Advanced",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        "PyTorch",
+        "TensorRT",
+        "CUDA",
+        "Scikit-learn",
+        "Pandas",
+        "NumPy",
+        "Backend"
       ]
     },
     {
-      "name": "Mongo",
-      "level": "Avanzado",
+      "name": "Rust",
+      "level": "Advanced",
       "keywords": [
-        "Bases de Datos", "NO SQL", "Almacenamiento de Datos", "Backend"
+        "Actix-web",
+        "Microservices",
+        "High Performance",
+        "Systems Programming"
       ]
     },
     {
       "name": "Cpp",
-      "level": "Avanzado",
+      "level": "Advanced",
       "keywords": [
-        "Low Level", "Backend", "C++", "C"
+        "C++",
+        "C",
+        "OpenCV",
+        "ONNX Runtime",
+        "Low-Level Optimization"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Advanced",
+      "keywords": [
+        "JavaScript",
+        "Fullstack",
+        "Node",
+        "Frontend",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Advanced",
+      "keywords": [
+        "Containers",
+        "DevOps",
+        "Kubernetes",
+        "Microservices"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control",
+        "GitHub Actions",
+        "CI/CD"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "CI/CD"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Advanced",
+      "keywords": [
+        "SQL Server",
+        "PostgreSQL",
+        "Relational Databases",
+        "Data Modeling"
+      ]
+    },
+    {
+      "name": "Mongo",
+      "level": "Advanced",
+      "keywords": [
+        "NoSQL",
+        "MongoDB",
+        "Data Storage",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Intermediate",
+      "keywords": [
+        "JavaScript",
+        "APIs",
+        "Backend"
       ]
     }
   ],
@@ -199,44 +258,54 @@
     },
     {
       "language": "English",
-      "fluency": "Advanced"
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "Portuguese",
+      "fluency": "Limited working proficiency"
     }
   ],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
+  "interests": [],
+  "references": [],
   "projects": [
+    {
+      "name": "Yolo V10 c++",
+      "isActive": true,
+      "description": "Engineered a modular C++ computer vision application for real-time object detection using YOLOv10 and ONNX Runtime 1.17, achieving 60+ FPS inference with Top-K layer optimizations and custom OpenCV 4.9 tensor manipulation.",
+      "highlights": [
+        "C++",
+        "YOLOv10",
+        "ONNX Runtime",
+        "OpenCV",
+        "TensorRT"
+      ],
+      "url": "https://github.com/DanielSarmiento04/yolov10cpp",
+      "github": "https://github.com/DanielSarmiento04/yolov10cpp"
+    },
     {
       "name": "Cifar 10",
       "isActive": true,
-      "description": "Desarrollo de red neuronal convolucional usando el dataset cifar 10, usando métricas como Recall, AUC, BinaryAccuracy entre otras.",
+      "description": "Implemented a Deep Convolutional Neural Network (CNN) in TensorFlow with custom data augmentation and learning rate scheduling, attaining 91.5% accuracy evaluated across Recall, AUC-ROC, and Categorical Accuracy.",
       "highlights": [
-        "Tensorflow",
         "Python",
-        "CNN"
+        "TensorFlow",
+        "CNN",
+        "Computer Vision",
+        "Scikit-learn"
       ],
       "url": "https://github.com/DanielSarmiento04/Cifar-10",
       "github": "https://github.com/DanielSarmiento04/Cifar-10"
-
     },
     {
       "name": "Kafka-lab",
       "isActive": true,
-      "description": "Ejemplos de apache kafka usando c, c++ y python para un consumidor y un productor, se adapta el el proyecto para despliegues con docker compose",
+      "description": "Engineered distributed streaming pub/sub pipelines in Apache Kafka using C, C++, and Python for high-throughput producers and consumers containerized with Docker Compose.",
       "highlights": [
-        "C",
+        "Apache Kafka",
         "C++",
         "Python",
         "Docker",
-        "apache kafka"
+        "Distributed Systems"
       ],
       "url": "https://github.com/DanielSarmiento04/Kafka-lab",
       "github": "https://github.com/DanielSarmiento04/Kafka-lab"
@@ -244,55 +313,45 @@
     {
       "name": "ObjectDetectionApi",
       "isActive": true,
-      "description": "Api rest desarrollada en c++ usando el framework oat++ para la detección de objetos en imágenes usando el modelo YoloV8. Se usa openCv para el procesamiento de imágenes.",
+      "description": "High-performance REST API developed in C++ using Oat++ for real-time object detection in image streams powered by YOLOv8 and OpenCV preprocessing.",
       "highlights": [
-        "OpenCv",
-        "YoloV8",
+        "C++",
+        "YOLOv8",
         "Oat++",
-        "C++"
+        "OpenCV",
+        "REST API"
       ],
       "url": "https://github.com/DanielSarmiento04/ObjectDetectionApi",
       "github": "https://github.com/DanielSarmiento04/ObjectDetectionApi"
     },
     {
       "name": "Api GateWay",
-      "description": "Creación de un api gateway usando actix-web en rust para peticiones peticiones http 1/2 adicionando ademas una capa de servidor proxy reverso.  Se usa arquitectura basada en micro servicios con una api desarrollada en python y bun",
+      "isActive": true,
+      "description": "Built an asynchronous API gateway in Rust using Actix-web supporting HTTP 1.1/2 with reverse proxy and rate limiting for Python and Bun microservices.",
       "highlights": [
         "Rust",
-        "Docker",
-        "Bun",
+        "Actix-web",
+        "Microservices",
         "Python",
-        "MicroService",
-        "nginx"
+        "Docker",
+        "Nginx"
       ],
       "url": "https://github.com/DanielSarmiento04/api_gateway",
       "github": "https://github.com/DanielSarmiento04/api_gateway"
     },
     {
       "name": "Infrastructure Integration",
-      "description": "Integración de nginx como un balanceador de cargas a dos micro servicios, Se conteneriza cada micro servicio y se despliega en un servidor de producción",
+      "isActive": true,
+      "description": "Designed and deployed containerized microservices load balanced with Nginx, configuring reverse proxy routing, SSL termination, and production deployment scripts.",
       "highlights": [
-        "Python",
         "Nginx",
+        "Load Balancer",
         "Docker",
-        "Load Balancer"
+        "Python",
+        "CI/CD"
       ],
       "url": "https://github.com/DanielSarmiento04/infraestructure_integration",
       "github": "https://github.com/DanielSarmiento04/infraestructure_integration"
-    },
-    {
-      "name": "Yolo V10 c++",
-      "description": "The next repository aims to provide a basic c++ script using std 17 over, to do it and consider the speed The code use OpenCv 4.9.0_8 and Onnx 1.17.1 to manipulate the image and inference the model. Note that Opncv don't support a native integration because yolov10 integra A top K layer in their architecture.",
-      "highlights": [
-        "Onnx",
-        "Yolov10",
-        "C++",
-        "OnnxRuntime",
-        "OpenCv"
-      ],
-      "url": "https://github.com/DanielSarmiento04/yolov10cpp",
-      "github": "https://github.com/DanielSarmiento04/yolov10cpp"
     }
-    
   ]
 }

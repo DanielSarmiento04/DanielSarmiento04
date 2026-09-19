@@ -3,6 +3,7 @@ import 'hotkeypad/reset.css'
 import 'hotkeypad/index.css'
 import { type SocialIcon } from "@/types"
 import { basics } from "@cv"
+import cvPdf from "@/assets/cv.pdf"
 
 const { profiles } = basics
 
@@ -74,6 +75,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
 <div
   id="hotkeypad"
   data-placeholder="Buscar comando"
+  data-cv-url={cvPdf}
   data-info={JSON.stringify(profilesInfo)}
 >
 </div>
@@ -93,17 +95,39 @@ const profilesInfo = profiles.map(({ network, url }) => {
 
   const hotkeypad = new HotKeyPad()
   const info = hotkeypad.instance.getAttribute("data-info") ?? "[]"
+  const cvUrl = hotkeypad.instance.getAttribute("data-cv-url") || "/cv.pdf"
   const parsedInfo = JSON.parse(info) as Info[]
 
-  const downloadCV = () => {
-    const link = document.createElement("a")
-    link.href = "/cv.pdf"
-    link.download = "Jose_Daniel_Sarmiento_Blanco_CV.pdf"
-    link.target = "_blank"
-    link.rel = "noopener noreferrer"
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
+  const downloadCV = async () => {
+    try {
+      const response = await fetch(cvUrl)
+      if (!response.ok) throw new Error(`HTTP ${response.status}`)
+      const blob = await response.blob()
+
+      // Guard against HTML error pages being saved as PDF
+      if (blob.type.includes("text/html") || blob.size < 500) {
+        throw new Error("Invalid PDF blob received")
+      }
+
+      const blobUrl = URL.createObjectURL(blob)
+      const link = document.createElement("a")
+      link.href = blobUrl
+      link.download = "Jose_Daniel_Sarmiento_Blanco_CV.pdf"
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
+      setTimeout(() => URL.revokeObjectURL(blobUrl), 2000)
+    } catch (err) {
+      console.warn("Direct blob download failed, falling back to direct link:", err)
+      const fallbackLink = document.createElement("a")
+      fallbackLink.href = cvUrl
+      fallbackLink.target = "_blank"
+      fallbackLink.rel = "noopener noreferrer"
+      fallbackLink.download = "Jose_Daniel_Sarmiento_Blanco_CV.pdf"
+      document.body.appendChild(fallbackLink)
+      fallbackLink.click()
+      document.body.removeChild(fallbackLink)
+    }
   }
 
   const data = parsedInfo.map(

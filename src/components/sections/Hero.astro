@@ -8,6 +8,7 @@ import LinkedIn from "@/icons/LinkedIn.astro"
 import GitHub from "@/icons/GitHub.astro"
 import WorldMap from "@/icons/WorldMap.astro"
 import type { SocialIcon } from "@/types"
+import cvPdf from "@/assets/cv.pdf"
 
 const { name, label, image, location, profiles, phone, email } = basics
 const { city, region } = location
@@ -78,7 +79,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
           })
         }
         <a
-          href="/cv.pdf"
+          href={cvPdf}
           title={`Descargar CV en PDF (1 página) de ${name}`}
           target="_blank"
           rel="noopener noreferrer"
